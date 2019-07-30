@@ -1,0 +1,78 @@
+body {
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(83, 66, 39);
+  font-family: Comfortaa, sans-serif;
+}
+
+.hero {
+  background: url(https://strudeljs.org/images/background.svg) 50% 50% no-repeat
+    rgb(255, 218, 92);
+  background-size: 90%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__logo {
+  filter: brightness(0) invert(22%) sepia(47%) saturate(505%) hue-rotate(358deg)
+    brightness(93%) contrast(85%);
+  display: block;
+  margin: 0px auto;
+}
+
+.hero__content {
+  max-width: 630px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.button--fixed {
+  min-width: 150px;
+  box-sizing: border-box;
+}
+
+.button {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  cursor: pointer;
+  background: rgb(83, 66, 39);
+  border-radius: 30px;
+  padding: 15px 50px;
+  text-decoration: none;
+  outline: 0px;
+}
+
+.hero .button + .button {
+  margin-left: 20px;
+}
+
+.button--fixed {
+  min-width: 150px;
+  box-sizing: border-box;
+}
+
+.button--secondary {
+  color: rgb(83, 66, 39);
+  padding-right: 40px;
+  background: 0px 0px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(83, 66, 39);
+  border-image: initial;
+}
+
+.button--secondary svg {
+  margin-top: -25px;
+  position: relative;
+  top: 4px;
+  margin-left: 5px;
+}

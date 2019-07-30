@@ -1,0 +1,19 @@
+{
+  "name": "strudeljs-sandbox",
+  "version": "0.9.3",
+  "description": "Strudel.js Sandbox",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "7.4.4",
+    "strudel": "0.9.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": ["strudeljs"]
+}
