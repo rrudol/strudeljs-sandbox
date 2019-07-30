@@ -24,6 +24,7 @@ h1 {
     brightness(93%) contrast(85%);
   display: block;
   margin: 0px auto;
+  height: 48px;
 }
 
 .hero__content {
