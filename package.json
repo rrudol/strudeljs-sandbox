@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babel/plugin-proposal-decorators": "7.4.4",
-    "strudel": "0.9.3"
+    "strudel": "1.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
